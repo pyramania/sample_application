@@ -1,7 +1,8 @@
 #!/bin/bash
 
 date="$(date +%s)"
-echo "hello $date" >> hello
+echo "hai $date" >> hello
+git add hello
 git add hello
 git commit -m "hello $date"
 git push

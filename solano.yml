@@ -7,7 +7,6 @@ tddium:
   - "node -v"
   - "php -v" 
   - "python -V"
-  - "lein version"
   golang:
      golang_version: 1.3
   python:

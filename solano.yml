@@ -2,8 +2,8 @@ plan:
  - default
 profiles:
  default:
- script: "echo 'solano_test_env'"
- environment:
- 'FOOBARVAR': 'foobarval'
- 'PATH2': '/home/ubuntu/tmp'
- timeout: 300
+   script: "echo 'solano_test_env'"
+   environment:
+   'FOOBARVAR': 'foobarval'
+   'PATH2': '/home/ubuntu/tmp'
+   timeout: 300

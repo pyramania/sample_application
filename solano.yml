@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "bash -c time"
+    script: "echo 'hi'"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'

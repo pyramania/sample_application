@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "bash -c 'echo joe'"
+    script: "/home/ubuntu/foo.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
